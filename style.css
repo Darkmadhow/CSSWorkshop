@@ -33,7 +33,6 @@ header {
 }
 
 .text {
-    border: 2px solid yellow;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -42,11 +41,9 @@ header {
 }
 
 .text p {
-    border: 2px solid yellow;
 }
 
 .duckImg {
-    border: 2px solid red;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -82,9 +79,14 @@ header {
 footer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 form {
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+footer img {
+    height: 5rem;
 }
