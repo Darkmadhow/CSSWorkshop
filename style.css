@@ -20,6 +20,9 @@ nav {
     background-color: #fca311;
     align-items: center;
     padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 nav a {
     text-decoration: none;
